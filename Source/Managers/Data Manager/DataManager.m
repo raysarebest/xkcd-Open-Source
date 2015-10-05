@@ -47,9 +47,9 @@ static NSString * const kLatestComicDownloadedKey = @"LatestComicDownloaded";
 }
 
 - (void)initializeRealm {
-    // Currently no need for migrations, so we can leave the migrations block empty.
-    [RLMRealm setSchemaVersion:kCurrentSchemaVersion forRealmAtPath:[RLMRealm defaultRealmPath] withMigrationBlock:^(RLMMigration *migration, uint64_t oldSchemaVersion) {}];
-
+    RLMRealmConfiguration *defaultConfig = [RLMRealmConfiguration defaultConfiguration];
+    defaultConfig.schemaVersion = kCurrentSchemaVersion;
+    [RLMRealmConfiguration setDefaultConfiguration:defaultConfig];
     self.realm = [RLMRealm defaultRealm];
 }
 
