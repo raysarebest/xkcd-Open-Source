@@ -8,8 +8,8 @@
 //  Copyright (c) 2015 Mike Amaral. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <FBSDKShareKit/FBSDKShareKit.h>
+@import UIKit;
+@import FBSDKShareKit;
 #import "Comic.h"
 #import "AltView.h"
 

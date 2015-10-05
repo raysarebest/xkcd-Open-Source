@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Mike Amaral. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import "Comic.h"
 
 static NSString * const kComicCellReuseIdentifier = @"ComicCell";

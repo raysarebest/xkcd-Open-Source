@@ -13,7 +13,7 @@
 #import "ThemeManager.h"
 #import "DataManager.h"
 #import <SDWebImagePrefetcher.h>
-#import <TwitterKit/TwitterKit.h>
+@import TwitterKit;
 
 static CGFloat const kComicViewControllerPadding = 10.0;
 static CGFloat const kBottomButtonSpacing = 25.0;

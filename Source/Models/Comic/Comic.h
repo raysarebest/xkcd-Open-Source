@@ -8,7 +8,7 @@
 
 #import "RLMObject.h"
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 static NSString * const kNumKey = @"num";
 static NSString * const kTitleKey = @"title";

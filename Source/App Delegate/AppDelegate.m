@@ -10,9 +10,9 @@
 #import "ComicListViewController.h"
 #import "ThemeManager.h"
 #import <GTTracker.h>
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
-#import <TwitterKit/TwitterKit.h>
+@import Fabric;
+@import Crashlytics;
+@import TwitterKit;
 
 static NSString * const kAnalyticsTrackingID = @"UA-63011163-1";
 

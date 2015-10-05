@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Mike Amaral. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import <Realm.h>
 #import "ComicListFlowLayout.h"
 #import "ComicViewController.h"

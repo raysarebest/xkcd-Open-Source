@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Mike Amaral. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface StubManager : NSObject
 
